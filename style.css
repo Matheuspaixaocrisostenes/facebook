@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E9EBEE;
+}
+
+header{
+    background-color: #3B5998;
+    width: 100%;
+}
+
+h1{
+    font-size: 25pt;
+}
+
+.ent{
+    float: right;
+    margin: 50px auto;
+    margin-left: 10px;
+    padding: 2px;
+    border-radius: 2px;
+    border: none;
+}
+
+#btnEnt{
+    float: right;
+    margin: 45px auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: none;
+    color: white;
+    background-color: #3B5998;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#btnEnt:hover{
+    background-color: #2f477a;
+    transition: 0.5s;
+}
+
+aside{
+    float: right;
+    margin-left: 38%;
+    width: 500px;
+    align-self: flex-end;
+}
+
+aside input{
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.big{
+    width: 384px;
+}
+
+.divisor-top{
+    margin-top: 25px;
+}
+
+#cadas{
+    border: none;
+    color: white;
+    background-color: #62994E;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15pt;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 190px;
+    height: 45px
+}
+
+@media(max-width: 858px){
+    aside{
+        width: 450px;
+    }
+
+    #btnEnt{
+        margin-top: 150px;
+    }
+}
