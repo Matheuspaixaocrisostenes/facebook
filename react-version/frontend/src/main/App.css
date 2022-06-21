@@ -1,0 +1,30 @@
+body{
+    background-color: #F0F2F5;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formulario{
+    margin-top: -100px;
+}
+
+@media(max-width: 860px){
+    #conteudo{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .formulario{
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 690px){
+    #conteudo{
+        margin-left: 0px;
+    }
+}
